@@ -1,0 +1,25 @@
+{
+	"name": "@borrow-desk/backend",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "node --env-file=../../.env.development src/main.ts",
+		"build": "tsc -b",
+		"test": "vitest run"
+	},
+	"dependencies": {
+		"@borrow-desk/api": "workspace:*",
+		"@effect/platform-node": "catalog:",
+		"@effect/sql-pg": "catalog:",
+		"better-auth": "catalog:",
+		"effect": "catalog:",
+		"jose": "catalog:",
+		"pg": "catalog:"
+	},
+	"devDependencies": {
+		"@effect/vitest": "catalog:",
+		"@types/node": "catalog:",
+		"@types/pg": "catalog:",
+		"vitest": "catalog:"
+	}
+}

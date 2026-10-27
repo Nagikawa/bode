@@ -1,0 +1,14 @@
+{
+  "name": "@borrow-desk/api",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "effect": "catalog:"
+  }
+}

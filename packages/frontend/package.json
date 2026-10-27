@@ -1,0 +1,28 @@
+{
+	"name": "@borrow-desk/frontend",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"dependencies": {
+		"@borrow-desk/api": "workspace:*",
+		"@tailwindcss/vite": "catalog:",
+		"@vitejs/plugin-react": "catalog:",
+		"better-auth": "catalog:",
+		"effect": "catalog:",
+		"i18next": "catalog:",
+		"react": "catalog:",
+		"react-dom": "catalog:",
+		"react-i18next": "catalog:",
+		"react-router": "catalog:",
+		"tailwindcss": "catalog:",
+		"vite": "catalog:"
+	},
+	"devDependencies": {
+		"@types/node": "catalog:",
+		"@types/react": "catalog:",
+		"@types/react-dom": "catalog:"
+	}
+}
